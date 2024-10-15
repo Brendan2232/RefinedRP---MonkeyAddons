@@ -123,7 +123,7 @@ do
         M_oldDupeFunc( ply, success, dupe, info, moreinfo )
     end
     
-    hook.Add( "Initialize", "MonkeyLib:Dupes:CheckDupes",function()
+    hook.Protect( "Initialize", "MonkeyLib:Dupes:CheckDupes",function()
     
         M_oldDupeFunc = AdvDupe2.LoadDupe
 
