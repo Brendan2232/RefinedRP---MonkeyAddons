@@ -53,9 +53,7 @@ function PLAYER:UserGroupAccess( group ) // This function replaces my old rank s
     return false 
 end
 
-
-
-do // Another hack!! 
+do 
 
     local getPrioritizedRank = memoize( function( ply ) // Use memoize for caching! 
 
@@ -128,7 +126,7 @@ if ( CLIENT ) then
 
 end
 
-do // Time for a hack! 
+do 
 
     local oldLimitFunc = function() return 0 end 
 

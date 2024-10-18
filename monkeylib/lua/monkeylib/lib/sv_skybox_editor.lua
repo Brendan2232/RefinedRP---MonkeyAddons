@@ -155,8 +155,6 @@ hook.Protect( "InitPostEntity", "MonkeyLib:SkyBox:InitSkyBox", function()
 
     AssertF( IsValid( createdSkyBox ), "Skybox isn't valid!" )
 
-    MonkeyLib.ChangeSkybox( MonkeyLib.SKYBOX_HALLOWEEN_NIGHT )
-    
 end )
 
 concommand.Add( "mlib_change_skybox", function( ply, _, args )

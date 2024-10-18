@@ -1,5 +1,3 @@
-// Absolute hack!!
-
 require( "memoize" )
 require( "monkeyhooks" )
 

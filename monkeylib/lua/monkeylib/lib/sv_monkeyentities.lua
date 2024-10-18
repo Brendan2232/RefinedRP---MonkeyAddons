@@ -1,4 +1,4 @@
-// This system needs re-working. 
+// This system needs re-working.
 
 local entityRemoveHandler = MonkeyLib.EntityRemoveHandler
 
