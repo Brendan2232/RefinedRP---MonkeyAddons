@@ -1,8 +1,8 @@
 AddCSLuaFile()
 
-// This is a replacement for the old system, old system caused issues :(
-// I highly don't recommend using this - I've replaced it with timer.Simple due to too many systems using this function 
-    
+// Please don't use this function, it's deprecated. This function replaces an old async / await hack that I made with couroutines 
+// I've replaced it with a 'timer.Simple' callback as I was too lazy to remove all traces of this function ( could've just used a callback... )
+
 function async( callback, ... )
 
     local packedArguments = { ... }

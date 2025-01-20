@@ -1,6 +1,7 @@
-Most of the RefinedRP foundation 
+Most of the custom RefinedRP addons
 
-MonkeyLib Requires a build of GAS ( or OPENPERMISSIONS ) 
-Possibly requires a build of SAM / SCB Chatbox ( overloads functions for secondary usergroup support ) 
+These systems wont work out of the box, they require some exteral addons ( Sam, GAS, Openpermissions )  
 
-I'd only use this if you actually know how to code - this was built for RefinedRP; it's not working out of the box. 
+There's a possibility for interference with other addons, so it's recommended to have some sort of Lua experience before using these addons.  
+
+
