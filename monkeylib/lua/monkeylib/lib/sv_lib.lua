@@ -1,6 +1,4 @@
-resource.AddWorkshop("3312455340")
-
-resource.AddWorkshop("111412589")
+resource.AddWorkshop("3453800550")
 
 resource.AddSingleFile( "resource/fonts/Inter-Black.ttf" )
 resource.AddSingleFile( "resource/fonts/Inter-Medium.ttf" )
